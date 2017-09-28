@@ -44,10 +44,7 @@ int main() {
 	for (int i = 0; i < thread_count; i++)
 		my_threads[i]->join();
 
-	std::cout 	<< std::endl
-					<< count << " multiples of " 
-					<< d << " between 0 and " 
-					<< range << std::endl;
+	std::cout << std::endl << count << " multiples of " << d << " between 0 and " << range << std::endl;
 
 	return 0;
 }
